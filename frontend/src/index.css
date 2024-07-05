@@ -1,0 +1,80 @@
+/* Navigation Bar */
+#navbar {
+  padding: 5px;
+  border: 1px solid;
+  background-color: black;
+}
+#navbar ul {
+}
+#navbar ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px;
+  border: 1px solid white;
+}
+#navbar ul > li:hover {
+  background-color: bisque;
+}
+#navbar ul > li:hover a {
+  color: green;
+}
+#navbar ul > li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Table Design */
+table {
+  width: 100%;
+}
+table th {
+  background-color: gray;
+}
+table th,
+table td {
+  border: 1px solid;
+  padding: 5px;
+  width: 20%;
+}
+
+.cap-1 {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.CreateProductForm {
+  border: 1px solid;
+  width: max-content;
+  min-height: 130px;
+  height: auto;
+  padding: 10px 20px;
+}
+
+.create-button {
+  float: right;
+  border: 2px solid greenyellow;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+}
+
+.formField {
+  margin-bottom: 10px;
+}
+
+.formField label {
+  display: inline-block;
+  width: 150px;
+}
+
+.saveBtn {
+  border: 2px solid;
+  background-color: yellowgreen;
+  color: black;
+  font-weight: 700;
+  padding: 5px 10px;
+  float: right;
+}
